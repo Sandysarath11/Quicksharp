@@ -6,11 +6,11 @@ use App\Http\Controllers\ExcelController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\Auth\RegisterController;
 
-// Route::get('/', function () {
-//     return view('auth.login');
-// });
+Route::get('/', function () {
+    return view('auth.login');
+});
 
-Route::get('/', [RegisterController::class,'login']);
+// Route::get('/', [RegisterController::class,'login']);
 
 Auth::routes();
 
