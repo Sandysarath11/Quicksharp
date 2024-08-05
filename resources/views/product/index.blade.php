@@ -7,7 +7,7 @@
 ?>
 @extends('layouts.app')
 @section('content')
-<div class="container-fluid">
+<div class="container">
     <h5>Add New Product</h5>
     <div class="container-fluid mt-4 border">
         <form action="{{ route('product.add')}}" method="post" class="mt-4 mb-4">
@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <label for="">ProductName</label>
-                    <input type="text" name="product[name]" class="form-control h-50" id="">
+                    <input type="text" name="product[name]" class="form-control h-50" id="" required>
                 </div>
                 <div class="col-lg-2">
                     <label for="">PartNo</label>

@@ -65,13 +65,13 @@
                     <a href="#inventorymenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Inventory</a>
                     <ul class="collapse list-unstyled" id="inventorymenu">
                         <li>
-                            <a href="{{ route('product')}}">New Product</a>
+                            <a href="{{ route('product')}}">Add Product</a>
                         </li>
                         <li>
-                            <a href="#">Home 2</a>
+                            <a href="#">Buying</a>
                         </li>
                         <li>
-                            <a href="#">Home 3</a>
+                            <a href="#">Selling</a>
                         </li>
                     </ul>
                 </li>
